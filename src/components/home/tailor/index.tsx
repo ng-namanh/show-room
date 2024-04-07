@@ -47,8 +47,8 @@ const Tailor = () => {
             <Image
               src='/tailor/image37.png'
               alt='Next.js logo'
-              width={419}
-              height={523}
+              width={106.44}
+              height={82.27}
               className='object-contains w-auto h-auto'
             />
             <div className='mt-8'>
