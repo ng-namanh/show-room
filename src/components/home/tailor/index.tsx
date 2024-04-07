@@ -42,7 +42,7 @@ const Tailor = () => {
                   </p>
                 </div>
               </div>
-              <div className='flex items-center mt-14 read-more-container'>
+              <div className='flex items-center mt-14 read-more-container cursor-pointer'>
                 <MoveRight className='icon' />
                 <p className='read-more-text'>Read more</p>
               </div>
@@ -65,7 +65,7 @@ const Tailor = () => {
                   </p>
                 </div>
               </div>
-              <div className='flex items-center mt-14 read-more-container'>
+              <div className='flex items-center mt-14 read-more-container cursor-pointer'>
                 <MoveRight className='icon' />
                 <p className='read-more-text'>Read more</p>
               </div>
@@ -88,7 +88,7 @@ const Tailor = () => {
                   </p>
                 </div>
               </div>
-              <div className='flex items-center mt-14 read-more-container'>
+              <div className='flex items-center mt-14 read-more-container cursor-pointer'>
                 <MoveRight className='icon' />
                 <p className='read-more-text'>Read more</p>
               </div>
@@ -111,7 +111,7 @@ const Tailor = () => {
                   </p>
                 </div>
               </div>
-              <div className='flex items-center mt-14 read-more-container'>
+              <div className='flex items-center mt-14 read-more-container cursor-pointer'>
                 <MoveRight className='icon' />
                 <p className='read-more-text'>Read more</p>
               </div>
