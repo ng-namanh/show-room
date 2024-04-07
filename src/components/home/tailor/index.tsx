@@ -26,69 +26,95 @@ const Tailor = () => {
         </div>
         <div className='grid grid-cols-4 mt-20'>
           <div className='border-r border-[#9C9C9C] p-4'>
-            <div>
-              <Image
-                src='/tailor/image36.png'
-                alt='Next.js logo'
-                width={106}
-                height={82}
-                className='object-cover w-auto h-auto'
-              />
-              <div className='mt-8'>
-                <p className='text-lg'>
-                  Custom <br />
-                  tailoring
-                </p>
-                <MoveRight className='mt-14' />
+            <div className='flex flex-col justify-between'>
+              <div>
+                <Image
+                  src='/tailor/image36.png'
+                  alt='Next.js logo'
+                  width={106}
+                  height={82}
+                  className='object-cover w-auto h-auto'
+                />
+                <div className='mt-8'>
+                  <p className='text-lg'>
+                    Custom <br />
+                    tailoring
+                  </p>
+                </div>
+              </div>
+              <div className='flex items-center mt-14 read-more-container'>
+                <MoveRight className='icon' />
+                <p className='read-more-text'>Read more</p>
               </div>
             </div>
           </div>
           <div className='border-r border-[#9C9C9C] p-4'>
-            <Image
-              src='/tailor/image37.png'
-              alt='Next.js logo'
-              width={106.44}
-              height={82.27}
-              className='object-contains w-auto h-auto'
-            />
-            <div className='mt-8'>
-              <p className='text-lg'>
-                Custom <br />
-                tailoring
-              </p>
-              <MoveRight className='mt-14' />
+            <div className='flex flex-col justify-between'>
+              <div>
+                <Image
+                  src='/tailor/image37.png'
+                  alt='Next.js logo'
+                  width={106}
+                  height={82}
+                  className='object-cover w-auto h-auto'
+                />
+                <div className='mt-8'>
+                  <p className='text-lg'>
+                    Custom <br />
+                    tailoring
+                  </p>
+                </div>
+              </div>
+              <div className='flex items-center mt-14 read-more-container'>
+                <MoveRight className='icon' />
+                <p className='read-more-text'>Read more</p>
+              </div>
             </div>
           </div>
           <div className='border-r border-[#9C9C9C] p-4'>
-            <Image
-              src='/tailor/image38.png'
-              alt='Next.js logo'
-              width={419}
-              height={523}
-              className='object-contains w-auto h-auto'
-            />
-            <div className='mt-8'>
-              <p className='text-lg'>
-                Custom <br />
-                tailoring
-              </p>
-              <MoveRight className='mt-14' />
+            <div className='flex flex-col justify-between'>
+              <div>
+                <Image
+                  src='/tailor/image38.png'
+                  alt='Next.js logo'
+                  width={106}
+                  height={82}
+                  className='object-cover w-auto h-auto'
+                />
+                <div className='mt-8'>
+                  <p className='text-lg'>
+                    Custom <br />
+                    tailoring
+                  </p>
+                </div>
+              </div>
+              <div className='flex items-center mt-14 read-more-container'>
+                <MoveRight className='icon' />
+                <p className='read-more-text'>Read more</p>
+              </div>
             </div>
           </div>
           <div className='p-4'>
-            <Image
-              src='/tailor/image39.png'
-              alt='Next.js logo'
-              width={419}
-              height={523}
-              className='object-contains w-auto h-auto'
-            />
-            <div className='mt-8'>
-              <p className='text-lg'>
-                Custom <br />
-                tailoring
-              </p>
-              <MoveRight className='mt-14' />
+            <div className='flex flex-col justify-between'>
+              <div>
+                <Image
+                  src='/tailor/image39.png'
+                  alt='Next.js logo'
+                  width={106}
+                  height={82}
+                  className='object-cover w-auto h-auto'
+                />
+                <div className='mt-8'>
+                  <p className='text-lg'>
+                    Custom <br />
+                    tailoring
+                  </p>
+                </div>
+              </div>
+              <div className='flex items-center mt-14 read-more-container'>
+                <MoveRight className='icon' />
+                <p className='read-more-text'>Read more</p>
+              </div>
             </div>
           </div>
         </div>
