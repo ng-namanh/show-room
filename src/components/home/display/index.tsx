@@ -4,7 +4,7 @@ const Display = () => {
   return (
     <section className='mt-10 w-full grid grid-cols-4 mx-auto'>
       <div>
-        <div className='relative h-full'>
+        <div className='relative h-full cursor-pointer'>
           <Image
             src='/display/drape.png'
             alt='Next.js logo'
@@ -18,8 +18,9 @@ const Display = () => {
           </p>
         </div>
       </div>
+
       <div>
-        <div className='relative h-full'>
+        <div className='relative h-full cursor-pointer'>
           <Image
             src='/display/curtain.png'
             alt='Next.js logo'
@@ -34,7 +35,7 @@ const Display = () => {
         </div>
       </div>
       <div>
-        <div className='relative h-full'>
+        <div className='relative h-full cursor-pointer'>
           <Image
             src='/display/blind.png'
             alt='Next.js logo'
@@ -49,7 +50,7 @@ const Display = () => {
         </div>
       </div>
       <div>
-        <div className='relative h-full'>
+        <div className='relative h-full cursor-pointer'>
           <Image
             src='/display/culting-blind.png'
             alt='Next.js logo'

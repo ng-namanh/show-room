@@ -74,7 +74,7 @@ const ProductGrid = () => {
             </h1>
           </div>
           <ul className='flex justify-center items-center gap-8 '>
-            <li className='border rounded-full border-black px-6 py-3'>
+            <li className='border rounded-full border-black px-6 py-3 cursor-pointer hover:bg-black/10 transition-all duration-300'>
               Best Seller
             </li>
             <li>Curtain fabric</li>
@@ -107,7 +107,7 @@ const ProductGrid = () => {
                     </p>
                     <p className=' font-semibold text-lg'>${product.price}</p>
                   </div>
-                  <div className='rounded-full bg-[#EDEDED] flex items-center justify-center p-2'>
+                  <div className='rounded-full bg-[#EDEDED] flex items-center justify-center p-2 cursor-pointer'>
                     <ShoppingCart />
                   </div>
                 </div>
