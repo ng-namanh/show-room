@@ -23,6 +23,7 @@ const Hero = () => {
               alt='Next.js logo'
               width={419}
               height={523}
+              className='object-contains w-auto h-auto'
             />
           </div>
           <div className='col-span-3 flex items-start justify-start pb-32'>
@@ -31,6 +32,7 @@ const Hero = () => {
               alt='Next.js logo'
               width={819}
               height={809}
+              className='object-contains w-auto h-auto'
             />
           </div>
           <div className='flex flex-col items-end justify-end md:mr-0'>
@@ -39,6 +41,7 @@ const Hero = () => {
               alt='Next.js logo'
               width={226}
               height={389}
+              className='object-contains w-auto h-auto'
             />
           </div>
         </div>

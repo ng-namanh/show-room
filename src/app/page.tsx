@@ -16,16 +16,18 @@ export default function Home() {
       <header className='flex items-center justify-between container mx-auto my-0'>
         <div className='flex gap-2'>
           <Image
-            src='/header/Image34.png'
+            src='/header/logo.png'
             alt='Next.js logo'
-            width={100}
-            height={100}
+            width={71}
+            height={61}
+            className='object-contains w-auto h-auto'
           />
           <Image
             src='/header/HoangYen.png'
             alt='Next.js logo'
             width={310}
             height={100}
+            className='object-contains w-auto h-auto mt-2'
           />
         </div>
         <ul className='text-xl font-medium flex gap-16'>
