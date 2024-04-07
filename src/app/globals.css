@@ -41,12 +41,12 @@ body {
   transform: translateX(460%);
 }
 
-.relative {
+.relative-effect {
   position: relative;
   overflow: hidden; /* Ensure the gradient layer does not overflow the container */
 }
 
-.relative::before {
+.relative-effect::before {
   content: '';
   position: absolute;
   top: 0;
@@ -63,21 +63,21 @@ body {
   z-index: 10; /* Ensure the gradient layer is below the text */
 }
 
-.relative:hover::before {
+.relative-effect:hover::before {
   opacity: 1;
 }
 
-.absolute {
+.absolute-effect {
   position: absolute;
   bottom: 1rem;
-  right: 0;
+  right: 1rem;
   z-index: 50;
   opacity: 0;
   transform: translateY(100%);
   transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
-.relative:hover .absolute {
+.relative-effect:hover .absolute-effect {
   opacity: 1;
   transform: translateY(0);
 }
