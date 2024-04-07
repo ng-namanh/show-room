@@ -14,8 +14,9 @@ const Hero = () => {
             </h1>
           </div>
           <div className='flex flex-col items-center justify-end col-span-2'>
-            <p className='uppercase w-[323px] mb-8'>
-              MAKE YOUR HOME LOOK IT VERY BEST, NO COMPROMISE. YOU DESERVED IT.
+            <p className='uppercase w-[323px] mb-8 text-start'>
+              MAKE YOUR HOME LOOK <br /> IT VERY BEST, NO COMPROMISE. <br />
+              YOU DESERVED IT.
             </p>
             <Image
               src='/hero/image43.png'
